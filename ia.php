@@ -1,7 +1,7 @@
 <?php
 class ia
 {
-//---Declaración_de_propiedades
+//Declaracion de las propiedades
   public $tipo="nave";
   public $mapaCol=4;
   public $mapaFil=4;
@@ -87,7 +87,7 @@ public $navesIA=[];
 
 
   
-//---Movimiento_de_la_nave_RAMDOM
+//Movimiento aleatorio de las naves
   public function randompos() {
 	$this->columna=rand(0,3);
 	$this->fila=rand(0,3);
